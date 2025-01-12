@@ -21,10 +21,6 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-nav ul li a.active {
-    background-color: #ffda47;
-    color: #000;
-}
 
 /* Styling for sections */
 section {
@@ -32,7 +28,6 @@ section {
     margin: 40px auto;
     max-width: 900px;
     border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -155,8 +150,6 @@ footer a {
 /* Section container */
 #derivatives {
     padding: 40px 20px;
-    margin: 40px auto;
-    max-width: 900px;
     background: #ffffff;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
@@ -367,7 +360,7 @@ footer a {
     border-width: 10px 10px 10px 0;
     border-color: transparent #ffffff transparent transparent;
 }
-/
+
 /* Section container */
 #experiments {
     padding: 80px 20px;
@@ -403,7 +396,6 @@ footer a {
     padding: 30px;
     background: #ffffff;
     border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: left;
     overflow: hidden;

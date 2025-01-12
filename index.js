@@ -31,19 +31,7 @@ gradientButton.addEventListener('click', () => {
     artPreview.style.background = 'linear-gradient(90deg, #ff6347, #ffda47, #47d1ff)';
 });
 
-// Shape controls
-circleButton.addEventListener('click', () => {
-    artPreview.style.borderRadius = '50%';
-});
 
-squareButton.addEventListener('click', () => {
-    artPreview.style.borderRadius = '8px';
-});
-
-abstractButton.addEventListener('click', () => {
-    artPreview.style.borderRadius = '0';
-    artPreview.style.background = 'repeating-linear-gradient(45deg, #0070f3, #ffffff 10px)';
-});
 // Select all sections and navigation links
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('nav ul li a');
